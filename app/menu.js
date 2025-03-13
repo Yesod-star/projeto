@@ -10,6 +10,8 @@ export default function MenuScreen() {
       <Text style={styles.title}>Escolha um Exemplo</Text>
       <Button title="Exemplo" onPress={() => navigation.navigate('Exemplo')} />
       <Button title="Calculadora" onPress={() => navigation.navigate('Calculadora')} />
+      <Button title="Quiz" onPress={() => navigation.navigate('Quiz')} />
+      <Button title="Crud" onPress={() => navigation.navigate('Crud')} />
     </View>
   );
 }
